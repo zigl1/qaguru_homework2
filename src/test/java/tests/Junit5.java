@@ -27,18 +27,6 @@ public class Junit5 {
         $x("//a[contains(text(),'SoftAssertions')]").click();
         //проверить что внутри есть пример кода для JUnit5
         $(".markdown-body").shouldHave(text("Using JUnit5 extend test class:"));
-
-
-
-
-
-
-
-
-
-
-
-
     }
 
 }
